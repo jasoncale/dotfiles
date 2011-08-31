@@ -16,8 +16,12 @@ alias fr='freerange'
 alias s='git status -sb'
 alias d='git diff'
 alias c='git diff --cached'
+alias gc='git commit -v'
+alias gl='git pull --rebase'
+alias bi='bundle install'
+alias be='bundle exec'
 
-cdpath=(~ ~/Projects/apps ~/Projects/tools ~/Projects/plugins ~/Projects/sites ~/Projects/freerange /var/apps)
+cdpath=(~ ~/Code /var/apps)
 
 setopt autopushd # Use pushd for all directory changing
 
