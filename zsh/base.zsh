@@ -37,5 +37,4 @@ case $system_name in
 esac
 
 source ~/.dotfiles/zsh/completion.zsh
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+eval "$(rbenv init -)"
