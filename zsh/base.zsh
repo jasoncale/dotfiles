@@ -12,14 +12,7 @@ autoload -U ~/.dotfiles/zsh/functions/*(:t)
 setopt LOCAL_OPTIONS # allow functions to have local options
 setopt LOCAL_TRAPS # allow functions to have local traps
 
-alias fr='freerange'
-alias s='git status -sb'
-alias d='git diff'
-alias c='git diff --cached'
-alias gc='git commit -v'
-alias gl='git pull --rebase'
-alias bi='bundle install'
-alias be='bundle exec'
+source ~/.dotfiles/zsh/aliases.zsh
 
 cdpath=(~ ~/Code /var/apps)
 

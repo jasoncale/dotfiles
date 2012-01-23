@@ -1,0 +1,8 @@
+--type-add=ruby=.rake,.ru
+--type-add=haml=.haml
+--type-add=cucumber=.feature
+--type-add=puppet=.pp
+--type-add=snip=.snip
+--type-add=css=.css,.scss
+--type-set=bin=.rdb
+--nobin
